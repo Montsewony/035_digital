@@ -1,0 +1,11 @@
+@charset "UTF-8";
+    /*Codigo CSS*/
+        /*SELECTORES*/
+        body{
+            margin: 50px 30%;
+            background-color: paleturquoise;
+        }
+        p {
+            font-style: italic;
+            padding-top: 20px;
+        }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/materialize.css">
+    <link rel="stylesheet" href="CSS/color.css">
+    <title>
+        Administrador 
+    </title>
+</head>
+
+
+<body>
+    <form action="accion.php" method="post">
+        <p>Nombre de la conferencia: <input type="text" name="nombre" /></p>
+        <p>CEDE: <input type="text" name="cede" /></p>
+        <p>Fecha: <input type="date" name="fecha" /></p>
+       <p>Fecha y hora actual: <input type="datetime" name="fechahora" step="1" min="2020-01-01T00:00Z" max="2100-12-31T12:00Z"/></p>
+       <?php echo date("Y-m-d\TH-i");?>
+        <p>hora de inicio: <input type="time" name="inicio" value="00:00:00" max="22:00:00" min="07:00:00" step="1"/></p>
+        <p>hora de termino: <input type="time" name="termino" value="00:00:00" max="22:00:00" min="07:00:00" step="1"/></p>
+        <p>Nombre(s) del conferencista: <input type="text" name="nomco" /></p>
+        <p>Apellido paterno: <input type="text" name="ap" /></p>
+        <p>Apellido materno: <input type="text" name="am" /></p>
+        <p><input type="submit" /></p>
+       </form>
+</body>
+</html>
