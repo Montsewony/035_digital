@@ -19,31 +19,31 @@ body{
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Open Sans', Sans Serif;
-	font-weight: 600;
+	font-weight: 800;
 }
 
 p{
 	margin:0;
 	padding:0;
-	color: #787878;
+	color: #000000;
 }
+button{
+	padding:6px;border: radius 20px;
+	color: ;
+	}
 
 a{
 	text-decoration: none;
-	color: #d65814;
+	color: #6cd662;
 }
 
 a:hover{
 	text-decoration: none;
-	color: #a93c01;
+	color: #6cd662;
 }
 
 a:hover,a:active,a:focus {
 	outline: 0;
-}
-
-hr{
-
 }
 
 :focus {
@@ -53,14 +53,18 @@ hr{
 ::-moz-focus-inner {
 	border:0;
 }
+i{
+	color: #ffffff;
+	font-weight: 800;
 
+}
 /* 
  * Basic CSS ends 
  */
 
 header .navbar { 
 	margin: 0;
-	background: #d65814;
+	background: #6cd662;
 	border-radius: 0;
 	border-bottom: 2px solid rgba(0,0,0,0.2); 
 	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
@@ -104,7 +108,7 @@ header .navbar-nav .dropdown-menu:after {
 
 header .navbar-nav .dropdown-menu:before {
 	border-color: rgba(194, 225, 245, 0);
-	border-bottom-color: #d65814;
+	border-bottom-color: #6cd662;
 	border-width: 8px;
 	margin-right: -1px;
 }
@@ -123,7 +127,7 @@ header .navbar-brand img {
  */
  
 .banner {
-	background: #e47133;
+	background: #6cd662;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
@@ -135,7 +139,6 @@ header .navbar-brand img {
 	font-size: 28px;
 	line-height: 35px;
 	color: #eee;
-	text-transform: capitalize;
 }
 .banner p {
 	max-width: 700px;
@@ -387,7 +390,7 @@ header .navbar-brand img {
 footer {
 	margin-top: 80px;
 	padding: 50px 0;
-	background: #d65814;
+	background: #6cd662;
 	text-align: center;
 	border-top: 1px solid rgba(0,0,0,0.1);
 }
@@ -404,7 +407,7 @@ footer p a {
 	letter-spacing: 0.055em;
 	color: #fff;
 }
-footer p a:hover { color: #a93c01; }
+footer p a:hover { color: #6cd662; }
 footer .social a {
 	display: inline-block;
 	margin: 0 2px;
@@ -424,7 +427,7 @@ footer .social a  i {
 	height: 100%;
 	line-height: 30px;
 	border-radius: 50%;
-	border: 1px dashed #d65814;
+	border: 1px dashed #6cd662;
 }
 
 footer .copy-right {
