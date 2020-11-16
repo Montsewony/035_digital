@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cuestionario 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">  
+         
+    </head>
+    <body>
+      
+  <div class="container-fluid">
+  <div class="row">       
+   <div class="col-3">
+<ul class="ull">
+  <li><a class="txt p-t-25 p-b-20" href="inicio_trabajador.html"><img src="images/us.jpg" width="30" height="30" class="control mb-2 mr-sm-3">Información Personal</a></li>
+  <li><a href="comunicados.html" class="txt p-t-25 p-b-20"><img src="images/docs.png" width="30" height="30" class="control mb-2 mr-sm-3">Ver Comunicados</a></li>
+  <li><a href="resultados.html"  class="txt p-t-25 p-b-20"><img src="images/result.png" width="40" height="35" class="control mb-2 mr-sm-2">Ver Resultados</a></li>
+  <li><a href="ver_politica.html"  class="txt p-t-25 p-b-20"><img src="images/politica.png" width="40" height="35" class="control mb-2 mr-sm-2">Ver Politica</a></li>  
+  <li><a href="cuestionario.html"  class="active p-t-25 p-b-20"><img src="images/answ.png" width="30" height="30" class="control mb-2 mr-sm-3">Responder Cuestionarios</a></li>
+  <li><a href="reporte.html"  class="txt p-t-25 p-b-20"><img src="images/enviar.png" width="35" height="35" class="control mb-2 mr-sm-3">Reportar</a></li>
+
+</ul>
+   </div> 
+   
+      
+ <div class="col-9"> 
+     
+   <div class="n_container">
+<ul class="topnav">
+  <li><a href="cuestionario.html">Cuestionario 1 </a></li>
+  <li><a href="cuestionario2.html">cuestionario 2 </a></li>
+  <li><a href="cuestionario3.html">cuestionario 3 </a></li>
+  <li><a class="active" href="cuestionario4.html">cuestionario 4 </a></li>
+</ul>
+       
+    
+        <form name="quest" action="fin_cuestionarios.html">
+            <center><h4>Cuestionario con multiples opciones</h4></center><br>
+            <center><p>Las preguntas siguientes están relacionadas con las decisiones que puede tomar en su trabajo.</p></center>
+              
+  <table class="table table-hover" id="dataTable">
+      <thead>
+      <tr>
+        <th></th>
+        <th></th> 
+        <th></th>        
+        <th class="headtable" style="vertical-align:middle">Siempre</th>  
+        <th class="headtable" style="vertical-align:middle">Casi Siempre</th>
+        <th class="headtable" style="vertical-align:middle">Algunas Veces</th>
+        <th class="headtable" style="vertical-align:middle">Casi Nunca</th>
+        <th class="headtable" style="vertical-align:middle">Nunca</th>      
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox" name="chk1"/></td>
+        <td style="vertical-align:middle">   <div id="valor"> <label id="lbResultado">18 </label> </div></td>
+        <td style="vertical-align:middle">  
+          <textarea class="form-control" rows="2" id="comment" style="resize: both;">Mi trabajo permite que desarrolle nuevas habilidades</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+                </div></div>
+        </td>
+                
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+      </tr>
+      
+      
+      <tr>
+        <td><input type="checkbox" name="chk2"/></td>
+        <td style="vertical-align:middle">19</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">En mi trabajo puedo aspirar a un mejor puesto</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+      </tr>
+      
+      
+      <tr>
+      <td><input type="checkbox" name="chk3"/></td>
+      <td style="vertical-align:middle">20</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Durante mi jornada de trabajo puedo tomar pausas cuando las necesito</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+      </tr>     
+     
+      <tr>
+      <td><input type="checkbox" name="chk4"/></td>
+      <td style="vertical-align:middle">21</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Puedo decidir la velocidad a la que realizo mis actividades en mi trabajo</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="chk4"/></td>
+            <td style="vertical-align:middle">22</td>
+              <td style="vertical-align:middle">
+                  <textarea class="form-control" rows="2" id="comment" style="resize: both;">Puedo cambiar el orden de las actividades que realizo en mi trabajo</textarea>
+              </td>
+              <td class="rowselect">
+                  <div class="form-check-inline"> 
+                      <div class="form-group">
+                      <label class="form-check-label col-sm-3">
+                          <input type="radio" class="form-check-input" name="optradio4">
+                      </label>
+                      </div></div>
+              </td>
+              <td class="rowselect">
+                  <div class="form-check-inline">
+                      <div class="form-group">
+                      <label class="form-check-label col-sm-3">
+                          <input type="radio" class="form-check-input" name="optradio4">
+                      </label>
+                  </div> </div>
+              </td>
+              <td class="rowselect">
+                  <div class="form-check-inline">
+                      <div class="form-group">
+                      <label class="form-check-label col-sm-3">
+                          <input type="radio" class="form-check-input" name="optradio4">
+                      </label>
+                  </div> </div>
+              </td>
+              <td class="rowselect">
+                  <div class="form-check-inline">
+                      <div class="form-group">
+                      <label class="form-check-label col-sm-3">
+                          <input type="radio" class="form-check-input" name="optradio4">
+                      </label>
+                  </div> </div>
+              </td>
+              <td class="rowselect">
+                  <div class="form-check-inline">
+                      <div class="form-group">
+                      <label class="form-check-label col-sm-3">
+                          <input type="radio" class="form-check-input" name="optradio4">
+                      </label>
+                  </div> </div>
+              </td>
+              </tr>
+      
+    </tbody>
+  </table>
+  
+    <div class="form-row">
+      <div class="col-lg-3">
+    <input type="submit" value="Enviar" class="boton1">
+  </div>
+    
+          </div>
+  
+        </form>
+</div>
+   </div>
+         
+   </div> 
+         </div>
+    </body>
+</html>
+   

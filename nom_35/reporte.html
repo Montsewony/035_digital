@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+    </head>
+    
+<body>
+      <div class="container-fluid">
+  <div class="row">
+      
+    <div class="col-3">
+<ul class="ull">
+  <li><a href="inicio_trabajador.html"  class="txt p-t-25 p-b-20"><img src="images/us.jpg" width="30" height="30" class="control mb-2 mr-sm-3">Información Personal</a></li>
+  <li><a href="comunicados.html" class="txt p-t-25 p-b-20"><img src="images/docs.png" width="30" height="30" class="control mb-2 mr-sm-3">Ver Comunicados</a></li>
+  <li><a href="resultados.html"  class="txt p-t-25 p-b-20"><img src="images/result.png" width="40" height="35" class="control mb-2 mr-sm-2">Ver Resultados</a></li>
+  <li><a href="ver_politica.html"  class="txt p-t-25 p-b-20"><img src="images/politica.png" width="40" height="35" class="control mb-2 mr-sm-2">Ver Politica</a></li>     
+  <li><a href="cuestionario.html"  class="txt p-t-25 p-b-20"><img src="images/answ.png" width="30" height="30" class="control mb-2 mr-sm-3">Responder Cuestionarios</a></li>
+  <li><a class="active p-t-25 p-b-20" href="reporte.html"><img src="images/enviar.png" width="35" height="35" class="control mb-2 mr-sm-3">Reportar</a></li>
+
+</ul>
+    </div>
+
+ <div class="col-9">
+<div style="margin-left:2%;">
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nombre</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="name" placeholder="Nombre completo">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Fecha</label>
+    </div>
+    <div class="col-75">
+      <input type="date">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Titulo</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="titulo">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Informe</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Redacte su informe..." style="height:350px"></textarea>
+    </div>
+  </div>
+  <div class="row">     
+    <input type="submit" value="Enviar" class="boton">
+  </div>
+  </form>
+</div>
+</div>
+  </div>
+  </div>
+      </div>
+</body>
+</html>

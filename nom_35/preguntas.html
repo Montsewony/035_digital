@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">  
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="jquery.thead-1.1.min.js"></script>
+
+        <script src="js/preguntas.js"></script>
+    
+    </head>
+    <body>
+         <div class="container-fluid">
+  <div class="row">  
+  <div class="col-3">
+        
+   <ul class="ull"> 
+  <nav>
+      
+      <li><a class="txt p-t-25 p-b-20" href="inicio_patron.html"><img src="images/empresa.png" width="40" height="40" class="control mb-2 mr-sm-2">Perfil del Patrón</a></li>
+      <li class="parent"><a class="txt p-t-25 p-b-20" href="#"><img src="images/publicar.png" width="35" height="35" class="control mb-2 mr-sm-3">Publicar</a>
+         <ul>                      
+            <li>
+                <a class="txt p-t-25 p-b-20" style="text-indent:10%;" href="avisos.html">&#x25B6; <img src="images/aviso.png" width="35" height="35" class="control mb-2 mr-sm-3">Avisos</a></li>
+            <li><a class="txt p-t-25 p-b-20" style="text-indent:10%" href="reportes.html">&#x25B6; <img src="images/reporte.png" width="35" height="35" class="control mb-2 mr-sm-3">Reportes</a></li>
+         </ul>
+      </li>
+      <li><a class="txt p-t-25 p-b-20" href="politica.html"><img src="images/politica.png" width="35" height="35" class="control mb-2 mr-sm-3">Crear Politica</a></li>
+      <li><a class="active p-t-25 p-b-20" href="preguntas.html"><img src="images/cuest.png" width="35" height="35" class="control mb-2 mr-sm-3">Publicar Cuestionario</a></li>     
+      <li><a class="txt p-t-25 p-b-20" href="ver_catalogo_servicios.html"><img src="images/catalogo2.png" width="35" height="35" class="control mb-2 mr-sm-3">Catálogo de Servicios</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="archivo.html"><img src="images/archivo.png" width="35" height="40" class="control mb-2 mr-sm-3">Archivo</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="empresas.html"><img src="images/empresas.jpg" width="35" height="40" class="control mb-2 mr-sm-3">Empresas</a></li>
+
+  </nav>
+    </ul>
+    </div>
+   
+      
+ <div class="col-9"> 
+     
+   <div class="n_container">
+<ul class="topnav">
+  <li><a class="active" href="#">Opción multiple </a></li>
+  <li><a href="form2.html">Cuestionario Si / No </a></li>
+</ul>
+       
+    
+        <form name="quest" action="nuevo_cuestionario1.html">
+            <center><h4>Cuestionario con multiples opciones</h4></center><br>
+              
+  <table class="table table-hover" id="dataTable">
+      <thead>
+      <tr>
+        <th></th>
+        <th></th> 
+        <th></th>        
+        <th class="headtable" style="vertical-align:middle">Siempre</th>  
+        <th class="headtable" style="vertical-align:middle">Casi Siempre</th>
+        <th class="headtable" style="vertical-align:middle">Algunas Veces</th>
+        <th class="headtable" style="vertical-align:middle">Casi Nunca</th>
+        <th class="headtable" style="vertical-align:middle">Nunca</th>      
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox" name="chk1"/></td>
+        <td style="vertical-align:middle">   <div id="valor"> <label id="lbResultado">1 </label> </div></td>
+        <td style="vertical-align:middle">  
+          <textarea class="form-control" rows="2" id="comment" style="resize: both;">Mi trabajo me exige hacer mucho esfuerzo físico</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+                </div></div>
+        </td>
+                
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio">
+                </label>
+            </div> </div>
+        </td>
+      </tr>
+      
+      
+      <tr>
+        <td><input type="checkbox" name="chk2"/></td>
+        <td style="vertical-align:middle">2</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Me preocupa sufrir un accidente en mi trabajo</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio2">
+                </label>
+            </div> </div>
+        </td>
+      </tr>
+      
+      
+      <tr>
+      <td><input type="checkbox" name="chk3"/></td>
+      <td style="vertical-align:middle">3</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Considero que las actividades que realizo son peligrosas</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio3">
+                </label>
+            </div> </div>
+        </td>
+      </tr>     
+     
+      <tr>
+      <td><input type="checkbox" name="chk4"/></td>
+      <td style="vertical-align:middle">4</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Por la cantidad de trabajo que tengo debo quedarme tiempo adicional a mi turno</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio4">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+        
+        
+      <tr>
+      <td><input type="checkbox" name="chk5"/></td>
+      <td style="vertical-align:middle">5</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Por la cantidad de trabajo que tengo debo trabajar sin parar</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio5">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio5">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio5">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio5">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio5">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+        
+        
+      <tr>
+      <td><input type="checkbox" name="chk6"/></td>
+      <td style="vertical-align:middle">6</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Considero que es necesario mantener un ritmo de trabajo acelerado</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio6">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio6">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio6">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio6">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio6">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+        
+        
+      <tr>
+      <td><input type="checkbox" name="chk7"/></td>
+      <td style="vertical-align:middle">7</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Mi trabajo exige que esté muy concentrado</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio7">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio7">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio7">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio7">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio7">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+        
+        
+      <tr>
+      <td><input type="checkbox" name="chk8"/></td>
+      <td style="vertical-align:middle">8</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Mi trabajo requiere que memorice mucha información</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio8">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio8">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio8">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio8">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio8">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+        
+        
+      <tr>
+      <td><input type="checkbox" name="chk9"/></td>
+      <td style="vertical-align:middle">9</td>
+        <td style="vertical-align:middle">
+            <textarea class="form-control" rows="2" id="comment" style="resize: both;">Mi trabajo exige que atienda varios asuntos al mismo tiempo</textarea>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio9">
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio9">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio9">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio9">
+                </label>
+            </div> </div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" class="form-check-input" name="optradio9">
+                </label>
+            </div> </div>
+        </td>
+        </tr>
+  
+    </tbody>
+  </table>
+  
+    <div class="form-row">
+    <div class="col">
+     <input class="boton" type="button" value="Agregar" onclick="addRow('dataTable');" />
+     </div>
+    <div class="col">
+     <input class="boton" type="button" value="Borrar" onclick="deleteRow('dataTable');" />
+     </div>
+      <div class="col">
+    <input type="submit" value="Guardar" class="boton1">
+  </div>
+    
+    </div>
+  
+        </form>
+</div>
+   </div>
+         
+   </div> 
+         </div>
+    </body>
+</html>
+   

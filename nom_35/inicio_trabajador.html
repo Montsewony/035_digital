@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+ 
+
+</head>
+<body>
+      
+  <div class="container-fluid">
+  <div class="row">       
+   <div class="col-3">
+<ul class="ull">
+  <li><a class="active p-t-25 p-b-20" href="inicio_trabajador.html"><img src="images/us.jpg" width="30" height="30" class="control mb-2 mr-sm-3">Información Personal</a></li>
+  <li><a href="comunicados.html" class="txt p-t-25 p-b-20"><img src="images/docs.png" width="30" height="30" class="control mb-2 mr-sm-3">Ver Comunicados</a></li>
+  <li><a href="resultados.html"  class="txt p-t-25 p-b-20"><img src="images/result.png" width="40" height="35" class="control mb-2 mr-sm-2">Ver Resultados</a></li>
+  <li><a href="ver_politica.html"  class="txt p-t-25 p-b-20"><img src="images/politica.png" width="40" height="35" class="control mb-2 mr-sm-2">Ver Politica</a></li>  
+  <li><a href="cuestionario.html"  class="txt p-t-25 p-b-20"><img src="images/answ.png" width="30" height="30" class="control mb-2 mr-sm-3">Responder Cuestionarios</a></li>
+  <li><a href="reporte.html"  class="txt p-t-25 p-b-20"><img src="images/enviar.png" width="35" height="35" class="control mb-2 mr-sm-3">Reportar</a></li>
+
+</ul>
+   </div> 
+
+
+ <div class="col-9">
+    <div class="container">
+   <label class="login100-form-title bg-secondary">                
+        Información Personal  
+    </label>
+     <form>
+       
+                 
+            <div class="row">
+            <div class="col-4 p-t-20">                 
+                <label for="first-name" class="control">Nombre</label>
+                <input type="text" class="form-control w-100"  id="first-name" readonly="readonly">                                    
+                  </div>   
+                
+            <div class="col-4 p-t-20">    
+                <label for="last-name" class="control ">Apellido Paterno</label>
+                <input type="text" class="form-control  w-100"  id="last-name" readonly="readonly">
+            </div>
+                
+            
+            <div class="col-4 p-t-20">
+                <label for="last-name" class="control ">Apellido Materno</label>
+                <input type="text" class="form-control w-100" id="last-name" readonly="readonly">
+            </div>
+            </div>
+           
+            
+        <div class="row">
+        <div class="col-4">
+        <div class="form-inline">
+            <label for="jornada" class="control">Sexo</label> 
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio" disabled>M
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio" disabled>F
+            </label>
+        </div>            
+        </div>
+                
+                
+        <div class="col-4">
+        <div class="form-group ">
+            <label for="age" class="control">Edad</label> 
+        <div class="input-group">
+            <input type="text" class="form-control" readonly="readonly">
+        <div class="input-group-append">
+            <span class="input-group-text">Años</span>
+        </div>
+        </div>
+        </div> 
+        </div>
+                      
+            
+            <div class="col-4">
+            <div class="form-group">
+                <label for="age" class="control">Estado Civil</label>
+                <input type="text" class="form-control w-100" id="edocivil" readonly="readonly">
+            </div>
+            </div>       
+            </div>  
+            
+            <div class="row">
+            <div class="col-4">   
+            <div class="form-group">
+                <label for="age" class="control">Nivel de Estudios </label>                          
+                 <input type="text" class="form-control w-100" id="estudios" readonly="readonly">
+            </div>
+            </div>
+            </div>
+
+    <div class="form-group p-t-30">
+          <label class="login100-form-title bg-secondary">                              
+        Datos Laborales      
+        </label>
+    </div> 
+           
+        <div class="row">
+        <div class="col-4">    
+        <label for="age" class="control ">Ocupación / Profesión / Puesto</label>                          
+           <input type="text" class="form-control w-100" readonly="readonly" id="ocupacion">                                    
+        </div>  
+            
+        <div class="col-4">      
+        <label for="age" class="control">Departamento / Sección / Área</label>
+           <input type="text" class="form-control w-100" readonly="readonly" id="depto">                                    
+        </div>       
+            
+        <div class="col-4">  
+            <label for="puesto" class="control">Tipo de Puesto</label>
+                <input type="text" class="form-control w-100" id="puesto" readonly="readonly">
+        </div>
+        </div> 
+            
+        <div class="row">
+        <div class="col-4">
+            <label for="contratacion" class="control">Tipo de Contratación</label>
+                <input type="text" class="form-control w-100" id="contratacion" readonly="readonly">
+        </div>
+       
+ 
+        <div class="col-4">
+        <div class="form-group">
+            <label for="personal" class="control">Tipo de Personal</label>
+              <input type="text" class="form-control w-100" id="personal" readonly="readonly">
+        </div>  
+        </div>
+
+
+        <div class="col-4">
+         <label for="jornada" class="control">Jornada de Trabajo</label>
+            <input type="text" class="form-control w-100" id="jornada" readonly="readonly">               
+        </div>                       
+        </div> 
+
+            
+        <div class="row">
+        <div class="col-4">
+        <div class="form-inline">
+            <label for="jornada" class="control">Realiza rotación</label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio" disabled>Si
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio" disabled>No
+            </label>
+        </div>       
+        </div>
+        
+            
+        <div class="col-4">
+        <div class="form-group">
+            <label for="tiempo" class="control">Tiempo en el Puesto</label>
+             <input type="text" class="form-control w-100" id="tiempo" readonly="readonly">
+        </div>  
+        </div> 
+ 
+        <div class="col-4">
+        <div class="form-group">
+            <label for="exp" class="control">Experiencia en años</label>                          
+             <input type="text" class="form-control w-100" id="exp" readonly="readonly">
+        </div>  
+        </div> 
+        </div>
+     </form>
+            </div> 
+        </div>        
+    </div>
+</div>
+  
+    </body>
+</html>

@@ -1,0 +1,584 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+        
+}
+
+#advanced-search-form{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 10px auto 0;
+    padding: 40px;
+    color: #858b8e;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+      
+}
+
+.login100-form-title{
+    font-family: "Mystery Quest";
+    font-weight: bold;
+    font-size: 130%;
+    color: #F8F8F8;
+}
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #fff;  
+}
+
+.wrap-login100 {
+  width: 390px;
+  background: #fff;
+}
+.navbar-brand {  
+    transform: translatex(180%);
+}
+.navbar-brand.nv {  
+    transform: translatex(255%);
+}
+.abs-center {
+        width: 290px;
+        margin-top: 5px;
+        margin-left: 15px;  
+}
+
+
+
+/*/inicio-trabajador/*/
+body {
+  margin: 0;
+}
+
+.ull {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+li a.active {
+  background-color: #00291b;
+  color: white;
+  margin-top: 0px;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/*/formulario-reporte/*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=date], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.boton {
+  background-color: #00291b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-left: auto;
+  margin-top: 20px;  
+}
+
+input[type=submit]:hover {
+  background-color: #555;  
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.n_container {
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* cuestionario */
+
+.headtable{
+    background-color: #00291b;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+
+.rowselect{
+     text-align: center;
+}
+
+.new_radio{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+}
+
+.boton1{
+  background-color: #00291b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-left: 850px;
+  margin-top: 20px;  
+}
+
+.cont{
+ width:1000px;
+ height:100px;
+line-height:150px;
+margin:0px auto;
+text-align:center;
+background-color:white;
+  
+}
+
+.check_img{
+vertical-align:middle;
+}
+
+
+/* comunicados */
+
+.navbar-nav{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+   display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+.nav-item a.active {
+background-color: #00291b;
+}
+
+.nav-item a:hover:not(.active) {
+ background-color: #111;
+}
+
+
+.cont2{
+ width:auto;
+ height:auto;
+
+margin:0px auto;
+text-align:center;
+background-color: #f2f2f2;
+}
+
+
+
+/* inicio empresa */
+   
+nav{
+   width:auto;
+  background-color: #f1f1f1;
+}
+nav li{
+   list-style: none;
+   position:relative; 
+}
+nav li a{
+   text-decoration:none;
+   display:block;   
+   color: #000;
+   padding: 8px 16px;
+}
+nav li a:hover{
+   color:#08D;
+}
+nav li.parent:hover{
+   border:1px #ccc solid;
+   margin:-1px;
+   background:#F8F8F8;
+   
+}
+
+nav li li a{
+   width:450px;
+   display:block;
+   background-color: #f1f1f1;
+}
+
+nav li ul {
+   width: 450px;
+   margin:0;
+   display:none;
+   background-color: #f1f1f1;
+   border:1px #00291b solid;
+   position: relative;
+   top:-1px;  
+  
+}
+nav li:hover ul {
+   display: block;
+}
+
+
+/* avisos */
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1; 
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #606160; color:white;}
+
+ul.topnav li a.active {background-color: #00291b;}
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+ 
+}
+
+.btn_subir_anuncio{
+  background-color: #00291b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position:absolute;
+  top: 50px;
+  left: 820px;
+}
+
+.btn_subir_imagen{
+  background-color: #00291b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position:absolute;
+  top: 65px;
+  left: 1150px;
+}
+
+.container_2 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 550px;
+  margin-left: -15px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: auto;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* politica */
+
+ul.topnav li.right {margin-top: 80px; float: right;}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive {
+    width: 100%; 
+  }
+}
+
+
+.btn_subir_imagen2{
+  background-color: #00291b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+ 
+   float: right;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+/* preguntas */
+
+
+textarea.form-control{
+   width: 100%;
+}
+
+#myImg{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg2{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.mySlides {
+  display: none;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+

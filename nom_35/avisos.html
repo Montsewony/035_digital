@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        </style>
+</head>
+<body>
+   <div class="container-fluid">
+  <div class="row">       
+   <div class="col-3">
+    <ul class="ull"> 
+  <nav>
+      
+      <li><a class="txt p-t-25 p-b-20" href="inicio_patron.html"><img src="images/empresa.png" width="40" height="40" class="control mb-2 mr-sm-2">Perfil del Patrón</a></li>
+      <li class="parent"><a class="active p-t-25 p-b-20" href="#"><img src="images/publicar.png" width="35" height="35" class="control mb-2 mr-sm-3">Publicar</a>
+         <ul>                      
+            <li>
+                <a class="txt p-t-25 p-b-20" style="text-indent:10%;" href="avisos.html">&#x25B6; <img src="images/aviso.png" width="35" height="35" class="control mb-2 mr-sm-3">Avisos</a></li>
+            <li><a class="txt p-t-25 p-b-20" style="text-indent:10%" href="reportes.html">&#x25B6; <img src="images/reporte.png" width="35" height="35" class="control mb-2 mr-sm-3">Reportes</a></li>
+         </ul>
+      </li>
+      <li><a class="txt p-t-25 p-b-20" href="politica.html"><img src="images/politica.png" width="35" height="35" class="control mb-2 mr-sm-3">Crear Politica</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="preguntas.html"><img src="images/cuest.png" width="35" height="35" class="control mb-2 mr-sm-3">Publicar Cuestionario</a></li>     
+      <li><a class="txt p-t-25 p-b-20" href="ver_catalogo_servicios.html"><img src="images/catalogo2.png" width="35" height="35" class="control mb-2 mr-sm-3">Catálogo de Servicios</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="archivo.html"><img src="images/archivo.png" width="35" height="40" class="control mb-2 mr-sm-3">Archivo</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="empresas.html"><img src="images/empresas.jpg" width="35" height="40" class="control mb-2 mr-sm-3">Empresas</a></li> 
+  </nav>
+    </ul>
+   </div>
+      
+<div class="col-9">
+ 
+ <div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Descargar Comunicados <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Comunicado 1</a>
+      <a href="#" class="w3-bar-item w3-button">Comunicado 2</a>
+      <a href="#" class="w3-bar-item w3-button">Comunicado 3</a>
+      <a href="#" class="w3-bar-item w3-button">Comunicado 4</a>
+
+    </div>
+  </div>
+   </div>
+ </div>
+  
+ <div class="cont2">
+ 
+ <div class="responsive">          
+  <div class="gallery p-t-70">
+      <img class="img-fluid" src="images/aviso.jpg" id="myImg" style="width:400px; height:270px">
+ <div class="input-group mb-3 col-12 p-t-20">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Titulo</span> 
+    </div> 
+    <input type="text" class="form-control"> 
+  </div>   
+<div class="input-group mb-3 col-12">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Fecha</span>
+    </div>
+      <input type="date" class="form-control" > 
+  </div>      
+      <input type="file" name="file" id="file">
+      <input type="submit" value="Subir Imagen"> 
+      <textarea id="subject"  name="subject" placeholder="Descripción del Aviso" style="margin-top: 30px; height:200px" class="col-11"></textarea>
+      </div>
+</div>
+
+
+<div class="responsive">          
+  <div class="gallery p-t-70">
+      <img class="img-fluid" src="images/aviso.jpg" id="myImg2" style="width:400px; height:270px">
+ <div class="input-group mb-3 col-12 p-t-20">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Titulo</span> 
+    </div> 
+    <input type="text" class="form-control"> 
+  </div>   
+<div class="input-group mb-3 col-12">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Fecha</span>
+    </div>
+      <input type="date" class="form-control" > 
+  </div>      
+      <input type="file" name="file" id="file">
+      <input type="submit" value="Subir Imagen"> 
+      <textarea id="subject"  name="subject" placeholder="Descripción del Aviso" style="margin-top: 30px; height:200px" class="col-11"></textarea>
+      </div>
+</div>
+     
+     
+ <div class="responsive">          
+  <div class="gallery p-t-50">
+      <img class="img-fluid" src="images/aviso.jpg" id="myImg3" style="width:400px; height:270px">
+ <div class="input-group mb-3 col-12 p-t-20">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Titulo</span> 
+    </div> 
+    <input type="text" class="form-control"> 
+  </div>   
+<div class="input-group mb-3 col-12">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Fecha</span>
+    </div>
+      <input type="date" class="form-control" > 
+  </div>      
+      <input type="file" name="file" id="file">
+      <input type="submit" value="Subir Imagen"> 
+      <textarea id="subject"  name="subject" placeholder="Descripción del Aviso" style="margin-top: 30px; height:200px" class="col-11"></textarea>
+      </div>
+</div>
+ 
+     
+ <div class="responsive">          
+  <div class="gallery p-t-50">
+      <img class="img-fluid" src="images/aviso.jpg" id="myImg4" style="width:400px; height:270px">
+ <div class="input-group mb-3 col-12 p-t-20">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Titulo</span> 
+    </div> 
+    <input type="text" class="form-control"> 
+  </div>   
+<div class="input-group mb-3 col-12">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Fecha</span>
+    </div>
+      <input type="date" class="form-control" > 
+  </div>      
+      <input type="file" name="file" id="file">
+      <input type="submit" value="Subir Imagen"> 
+      <textarea id="subject"  name="subject" placeholder="Descripción del Aviso" style="margin-top: 30px; height:200px" class="col-11"></textarea>
+      </div>
+</div>   
+     
+     <div class="w3-center w3-padding-32">
+    <div class="w3-bar  p-t-20">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black  w3-button">1</a>
+      <a href="avisos_pg2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+    <img class="modal-content" id="img02">
+  <div id="caption"></div>
+</div>
+     
+<script src="js/modal_img.js"></script>
+ </div>  
+ </div>
+  </div>
+   </div>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body>
+  <div class="container-fluid">
+  <div class="row">       
+   <div class="col-12">
+       
+ <div class="container">
+    <label class="login100-form-title bg-secondary">Datos Privados para Uso de la Unidad de Verificación</label>  
+    
+     <form action="inicio_patron.html">
+            <div class="row">
+            <div class="col">
+            <div class="form-group p-t-20">
+                <label for="first-name" class="control ">Nombre / Denominación / Razón social</label>
+                <input type="text" class="form-control  w-100"  id="name">                                    
+            </div>
+            </div>   
+                
+            <div class="col">    
+            <div class="form-group p-t-20">
+                <label for="last-name" class="control ">Registro Federal de Contribuyentes</label>
+                <input type="text" class="form-control w-100" id="rfc">
+            </div>
+            </div>
+            </div>
+                
+            
+            <div class="row">    
+            <div class="col">
+            <div class="form-group ">
+                <label for="last-name" class="control p-t-20">Domicilio Completo</label>
+                <input type="text" class="form-control w-100" placeholder="" id="last-name">
+            </div>
+            </div>
+                        
+        
+        <div class="col">
+        <div class="form-group ">  
+        <label for="age" class="control p-t-20">Teléfono</label>                          
+           <input type="text" class="form-control w-100" placeholder="(10 dígitos)" id="tel">                                    
+        </div>
+        </div>  
+        </div>
+         
+        
+        <div class="row">  
+        <div class="col">
+        <div class="form-group ">  
+        <label for="age" class="control p-t-20">Actividad Principal</label>                          
+           <input type="text" class="form-control w-100" id="act">                                    
+        </div>
+        </div>  
+         
+            
+        <div class="col">       
+            <label for="age" class="control p-t-20">Categoría</label>                            
+            <select class="form-control ">
+                <option value="">Elige una opción</option>
+                <option>Gestión</option>
+                <option>Certificación</option>
+                <option>Salud</option>               
+            </select>      
+        </div>
+        </div>
+   
+        
+        <div class="row">
+            <div class="col-6">
+            <label for="age" class="control">Número de Trabajadores</label> 
+            <select class="form-control">
+                <option value="">Elige una opción</option>
+                <option>0 - 15</option>
+                <option>16 - 50</option>
+                <option>Más de 50</option>               
+            </select>
+        </div>
+            
+            
+        <div class="col-6 p-t-20">       
+           <label for="pdf" class="control">PDF de la Empresa</label>
+           <input type="file" id="myFile" name="filename" class="control col-12 p-t-3">            
+        </div>
+        </div>
+         
+      
+        <div class="row">
+         <div class="col-6 p-t-20">
+           <label for="pdf" class="control">Logo de la Empresa</label>
+           <input type="file" id="myFile" name="filename" class="control col-12 p-t-3">            
+        </div>
+        </div> 
+         
+        <span class="login100-form-title p-t-80 p-b-2">           
+            <button type="submit" class="btn btn-info btn-lg btn-responsive"> 
+                <span class="glyphicon glyphicon-search"></span> Registrarse </button>       
+        </span>
+        
+        </form>
+ </div>
+   </div>
+  </div>
+  </div>
+    </body>
+</html>

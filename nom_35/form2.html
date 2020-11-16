@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">  
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="jquery.thead-1.1.min.js"></script>
+ 
+        <script src="js/preguntas_2.js"></script>
+
+
+     
+</head>
+<body>
+    <div class="container-fluid">
+  <div class="row">  
+  <div class="col-3">
+        
+    <ul class="ull"> 
+  <nav>
+      
+      <li><a class="txt p-t-25 p-b-20" href="inicio_patron.html"><img src="images/empresa.png" width="40" height="40" class="control mb-2 mr-sm-2">Perfil del Patrón</a></li>
+      <li class="parent"><a class="txt p-t-25 p-b-20" href="#"><img src="images/publicar.png" width="35" height="35" class="control mb-2 mr-sm-3">Publicar</a>
+         <ul>                      
+            <li>
+                <a class="txt p-t-25 p-b-20" style="text-indent:10%;" href="avisos.html">&#x25B6; <img src="images/aviso.png" width="35" height="35" class="control mb-2 mr-sm-3">Avisos</a></li>
+            <li><a class="txt p-t-25 p-b-20" style="text-indent:10%" href="reportes.html">&#x25B6; <img src="images/reporte.png" width="35" height="35" class="control mb-2 mr-sm-3">Reportes</a></li>
+         </ul>
+      </li>
+      <li><a class="txt p-t-25 p-b-20" href="politica.html"><img src="images/politica.png" width="35" height="35" class="control mb-2 mr-sm-3">Crear Politica</a></li>
+      <li><a class="active p-t-25 p-b-20" href="preguntas.html"><img src="images/cuest.png" width="35" height="35" class="control mb-2 mr-sm-3">Publicar Cuestionario</a></li>     
+      <li><a class="txt p-t-25 p-b-20" href="ver_catalogo_servicios.html"><img src="images/catalogo2.png" width="35" height="35" class="control mb-2 mr-sm-3">Catálogo de Servicios</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="archivo.html"><img src="images/archivo.png" width="35" height="40" class="control mb-2 mr-sm-3">Archivo</a></li>
+      <li><a class="txt p-t-25 p-b-20" href="empresas.html"><img src="images/empresas.jpg" width="35" height="40" class="control mb-2 mr-sm-3">Empresas</a></li>
+
+  </nav>
+    </ul>
+  </div>
+      
+ <div class="col-9"> 
+
+<ul class="topnav">
+  <li><a href="preguntas.html">Opción multiple </a></li>
+  <li><a class="active" href="#">Cuestionario Si / No </a></li>
+</ul>
+
+ <div class="n_container">
+        <form action="nuevo_cuestionario2.html">
+    <center><h4>Cuestionario con 2 opciones (Si / NO)</h4></center><br>
+ 
+    <table class="table table-hover" id="dataTable">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th> 
+        <th></th>  
+        <th class="headtable" style="vertical-align:middle">Si</th>  
+        <th class="headtable" style="vertical-align:middle">No</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+         <td><input type="checkbox" name="chk1"/></td>  
+         <td style="vertical-align:middle">   <div id="valor"> <label id="lbResultado">1 </label> </div></td>
+         <td style="vertical-align:middle">  
+          <textarea class="form-control" rows="2" id="comment" style="resize: both;">En mi trabajo debo brindar servicio a clientes o usuarios:</textarea>
+          </td> 
+         <td class="rowselect">
+            <div class="form-check-inline"> 
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" name="R1" value="cuestionario8.html" onclick="this.form.action = this.value" >
+                </label>
+                </div></div>
+        </td>
+        <td class="rowselect">
+            <div class="form-check-inline">
+                <div class="form-group">
+                <label class="form-check-label col-sm-3">
+                    <input type="radio" name="R1" value="cuestionario9.html" onclick="this.form.action = this.value" >
+                </label>
+            </div> </div>
+        </td>        
+      </tr>
+      </tbody>
+  </table>
+    <div class="form-row">
+    <div class="col">
+     <input class="boton" type="button" value="Agregar" onclick="addRow('dataTable');" />
+     </div>
+    <div class="col">
+     <input class="boton" type="button" value="Borrar" onclick="deleteRow('dataTable');" />
+     </div>  
+    </div>
+    
+  <table class="table table-hover" id="dataTable2">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>   
+        <th><textarea class="form-control" placeholder="Escribe la pregunta principal" rows="2" id="comment" style="resize: both;"></textarea></th>
+        <th  style="vertical-align:middle">Respuesta Si</th>  
+        <th  style="vertical-align:middle">Respuesta No</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+         <td><input type="checkbox" name="chk1"/></td>  
+         <td style="vertical-align:middle">   <div id="valor"> <label id="lbResultado">1 </label> </div></td>
+         <td> </td>
+         <td style="vertical-align:middle">  
+             <textarea class="form-control" rows="2" placeholder="Escriba la pregunta cuando la respuesta a la pregunta principal es Si " id="comment" style="resize: both;"></textarea>
+          </td> 
+          <td style="vertical-align:middle">  
+          <textarea class="form-control" rows="2" placeholder="Escriba la pregunta cuando la respuesta a la pregunta principal es No "  id="comment" style="resize: both;"></textarea>
+          </td> 
+        
+      </tr>
+      </tbody>
+  </table> 
+    
+     <div class="form-row">
+    <div class="col">
+        <input type="button" value="Opcional" class="boton1" onclick="addRow2('dataTable2');">
+      </div>       
+    <div class="col">
+     <input class="boton" type="button" value="Borrar" onclick="deleteRow('dataTable2');" />
+     </div>    
+    </div>
+    
+        <div class="form-row"> 
+    <div class="col">
+    <input type="button" value="Guardar" class="boton1">
+  </div>   
+        </div>
+  </form>     
+            
+</div>    
+ </div>
+  </div>
+   
+ 
+</div>
+    </body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro trabajador</title>
+        <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css?1.0" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body>
+ <div class="container-fluid">
+  <div class="row">       
+   <div class="col-12">
+       
+ <div class="container">
+      <label class="login100-form-title bg-secondary">                
+        Información Personal
+      </label> 
+     
+     <form action="inicio_trabajador.html">
+          <div class="row">
+            <div class="col-4 p-t-20">                 
+                <label for="first-name" class="control">Nombre</label>
+                <input type="text" class="form-control w-100"  id="first-name">                                    
+                  </div>   
+                
+            <div class="col-4 p-t-20">    
+                <label for="last-name" class="control ">Apellido Paterno</label>
+                <input type="text" class="form-control  w-100"  id="last-name" >
+            </div>
+                
+            
+            <div class="col-4 p-t-20">
+                <label for="last-name" class="control ">Apellido Materno</label>
+                <input type="text" class="form-control w-100" id="last-name" >
+            </div>
+            </div>
+           
+            
+            <div class="row">
+        <div class="col-4">
+        <div class="form-inline p-t-21">
+            <label for="jornada" class="control">Sexo</label> 
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">M
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">F
+            </label>
+        </div>            
+        </div>
+                
+                
+        <div class="col-4">
+        <div class="form-group  p-t-20">
+            <label for="age" class="control">Edad</label> 
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="">
+        <div class="input-group-append">
+            <span class="input-group-text">Años</span>
+        </div>
+        </div>
+        </div> 
+        </div>
+                      
+            
+            <div class="col-4">
+            <div class="form-group  p-t-20">
+                <label for="age" class="control mb-2 mr-sm-2">Estado Civil</label>
+                            
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una opción</option>
+                <option>Casado</option>
+                <option>Divorciado</option>
+                <option>Soltero</option>
+                <option>Unión libre</option>
+                <option>Viudo</option>
+            </select>
+            </div>
+            </div>       
+            </div>  
+            
+            <div class="row">
+             <div class="col-4">
+            <div class="form-group  p-t-20">
+                <label for="age" class="control mb-2 mr-sm-2">Nivel de Estudios </label>                          
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una opción</option>
+                <option>Primaria</option>
+                <option>Secundaria</option>
+                <option>Bachillerato</option>
+                <option>Técnico Superior</option>
+                <option>Licenciatura</option>
+                <option>Maestria</option>
+                <option>Doctorado</option>
+            </select>
+            </div>
+            </div>
+            </div>
+
+    <div class="form-group p-t-30">
+           <label class="login100-form-title bg-secondary">                
+                Datos Laborales</label>       
+    </div> 
+            
+        <div class="row">
+        <div class="col">
+        <div class="form-group p-t-20">  
+        <label for="age" class="control mb-2 mr-sm-2">Ocupación / Profesión / Puesto </label>                          
+           <input type="text" class="form-control mb-2 mr-sm-2 w-100" placeholder="" id="ocupacion">                                    
+        </div>
+        </div>  
+            
+        <div class="col">
+        <div class="form-group p-t-20">  
+        <label for="age" class="control mb-2 mr-sm-2">Departamento / Sección / Área</label>
+           <input type="text" class="form-control mb-2 mr-sm-2 w-100" placeholder="" id="depto">                                    
+        </div>
+        </div>        
+            
+        <div class="col">
+        <div class="form-group p-t-20">
+            <label for="puesto" class="control">Tipo de Puesto</label>
+                            
+            <select class="form-control">
+                <option value="">Elige una Opción</option>
+                <option>Operativo</option>
+                <option>Profesional Técnico</option>
+                <option>Superior</option>
+                <option>Gerente</option>               
+            </select>
+        </div>                                   
+        </div>
+        </div>
+            
+        <div class="row">
+        <div class="col">
+        <div class="form-group p-t-20">
+            <label for="contratacion" class="control mb-2 mr-sm-2">Tipo de Contratación</label>
+                            
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una Opción</option>
+                <option>Por obra o proyecto</option>
+                <option>Tiempo determinado "temporal"</option>
+                <option>Tiempo indeterminado</option>
+                <option>Honorarios</option>               
+            </select>
+        </div>  
+        </div>
+       
+ 
+        <div class="col">
+        <div class="form-group p-t-20">
+            <label for="personal" class="control mb-2 mr-sm-2">Tipo de Personal</label>
+                            
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una Opción</option>
+                <option>Sindicalizado</option>
+                <option>Ninguno</option>
+                <option>Confianza</option>               
+            </select>
+        </div>  
+        </div>
+
+
+        <div class="col">
+        <div class="form-group p-t-20">
+            <label for="jornada" class="control mb-2 mr-sm-2">Jornada de Trabajo</label>
+                            
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una Opción</option>
+                <option>Fijo nocturno (Entre 12pm y 6am)</option>
+                <option>Fijo diurno (Entre 6am y 20hrs)</option>
+                <option>Mixto combinado diurno y nocturno</option>               
+            </select>
+        </div>  
+        </div>                       
+        </div> 
+
+            
+        <div class="row">
+        <div class="col">
+        <div class="form-inline p-t-20">
+            <label for="jornada" class="control mb-2 mr-sm-2">Realiza rotación</label>
+        </div>    
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">Si
+            </label>
+        </div>
+        <div class="form-check-inline">    
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">No
+            </label>
+        </div>       
+        </div>
+  
+            
+        <div class="col">
+        <div class="form-group p-t-20">
+            <label for="tiempo" class="control mb-2 mr-sm-2">Tiempo en el Puesto</label>
+                            
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una Opción</option>
+                <option>Menos de 6 meses</option>
+                <option>Entre 6 meses y 1 año</option>
+                <option>Entre 1 y 4 años</option>   
+                <option>Entre 5 y 9 años </option>
+                <option>Entre 10 y 14 años </option>
+                <option>Entre 15 y 19 años </option>
+                <option>Entre 20 y 24 años </option>
+                <option>25 años o más</option>
+            </select>
+        </div>  
+        </div> 
+ 
+        <div class="col">
+        <div class="form-group p-t-20">
+            <label for="exp" class="control mb-2 mr-sm-2 ">Experiencia en años</label>
+                            
+            <select class="form-control mb-2 mr-sm-2">
+                <option value="">Elige una Opción</option>
+                <option>Menos de 6 meses</option>
+                <option>Entre 6 meses y 1 año</option>
+                <option>Entre 1 y 4 años</option>   
+                <option>Entre 5 y 9 años </option>
+                <option>Entre 10 y 14 años </option>
+                <option>Entre 15 y 19 años </option>
+                <option>Entre 20 y 24 años </option>
+                <option>25 años o más</option>
+            </select>
+        </div>  
+        </div> 
+        </div>
+            
+       
+        <span class="login100-form-title p-b-30 p-t-20">           
+            <button type="submit" class="btn btn-info btn-lg btn-responsive"> 
+                <span class="glyphicon glyphicon-search"></span> Registrarse </button>       
+        </span>
+        
+        </form>
+    </div>
+   </div>
+  </div>
+        </div>
+    </body>
+</html>
