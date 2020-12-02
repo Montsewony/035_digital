@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
@@ -59,12 +59,11 @@ ddsmoothmenu.init({
 	mainmenuid: "templatemo_flicker", //menu DIV id
 	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
 	classname: 'ddsmoothmenu', //class added to menu's outer DIV
-	//customtheme: ["#1c5a80", "#18374a"],
-	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+	contentsource: "markup", //"markup" or ["container_id", "path_to_menu_file"]
 })
-<script src="js/modernizr-2.6.2.min.js"></script>
+<script src ="js/modernizr-2.6.2.min.js"></script>
 </script>
-<script>​.mySlides {display:none;}
+<script> mySlides; {display:none;}
 </script>
 <link rel="icon"  type="image/png" href="images/templatemo_logo.png"> 
 
@@ -1155,11 +1154,9 @@ $(window).scroll(function(){
    if (lastId !== id) {
        lastId = id;
        menuItems
-         .parent().removeClass("active")
+         .parent().removeClass("active"))
          .end().filter("[href=#"+id+"]").parent().addClass("active");
-   }                   
-});
-<!-- jQuery -->
+   };
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -1178,7 +1175,6 @@ $(window).scroll(function(){
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
 
-	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
 	<script src="js/jquery.style.switcher.js"></script>
 	<script>
 		$(function(){
@@ -1188,18 +1184,15 @@ $(window).scroll(function(){
 				cookie: {
 		          	expires: 30,
 		          	isManagingLoad: true
-		      	}
+		      	}}
 			});	
-			$('.option-toggle').click(function() {
+			$('.option-toggle').click(function()) {
 				$('#colour-variations').toggleClass('sleep');
-			});
-		});
+		} }));
 	</script>
-	<!-- End demo purposes only -->
 
-	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
-      </script>
 </body>
+
 </html>
